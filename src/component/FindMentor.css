@@ -1,0 +1,17 @@
+/* src/FindMentor.css */
+
+.find-mentor-container {
+  display: flex;
+  width: 90%;
+  font-size: 15px;
+  justify-content: space-between;
+}
+
+.find-mentor-container h1 {
+  margin-right: 8px;
+}
+
+#grid{
+  color: blue;
+  float :right ;
+}

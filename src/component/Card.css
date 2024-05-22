@@ -1,0 +1,70 @@
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.profile-img {
+  border-radius: 35%;
+  width: 80px;
+  height: 90px;
+  top: 15px;
+  float: left;
+}
+
+.actions {
+  margin-top: 8px;
+}
+
+.actions button {
+  /* background: #007bff; */
+  border: none;
+  /* color: white; */
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.profile {
+  background-color: none;
+  background-color: rgb(206, 207, 196);
+  color: #007bff;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  /* color: black; */
+}
+
+.book {
+  background: #007bff;
+  color: antiquewhite;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.actions button:hover {
+  color: blue;
+  background: white;
+}
+
+/* .book:hover{
+  color: blue;
+  background-color: white;
+} */
+
+.card:hover {
+  color: whitesmoke;
+  background-color: rgb(150, 201, 228);
+  transition: background-color 0.5s ease;
+}
+
+.card:hover .profile {
+  background-color: #007bff;
+  color: whitesmoke;
+}
+
+.card:hover .book {
+  background-color: aliceblue;
+  color: #007bff;
+}

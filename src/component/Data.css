@@ -1,0 +1,20 @@
+.mentor-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+@media (min-width: 640px)  {
+  .mentor-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .mentor-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
